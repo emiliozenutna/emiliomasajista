@@ -1,0 +1,38 @@
+/* PALETA DE COLORES */
+
+$color-primario: #F7F7F7;
+$color-secundario: #090174;
+$color-terciario: #3b0174;
+$color-cuaternario: #e1e6a3;
+$color-quinario: #740101;
+$color-formulario: #ffe5e5;
+
+/* FUENTES */
+
+$font-family: 'Montserrat', sans-serif;
+
+/* TAMAÑOS DE FUENTES */
+
+$fuente-chica: 16px;
+$fuente-mediana: 24px;
+$fuente-grande: 28px;
+$icono: 40px;
+
+/* RESOLUCIONES DE PANTALLA */
+$celular: 320px;
+$tablet: 768px;
+$desktop: 992px;
+$desktopXG: 1200px;
+
+
+/* ESPACIADO */
+
+$espaciado: 20px;
+
+/* MIXINS */
+@mixin flex-column {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

@@ -1,0 +1,12 @@
+.container-cards a {
+    @extend .boton;
+    text-decoration: none;
+    color: $color-primario;
+    background-color: $color-secundario;
+    transition: ease-in .3s;
+
+    &:hover {
+        background-color: $color-primario;
+        color: $color-secundario;
+    }
+}

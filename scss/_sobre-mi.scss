@@ -1,0 +1,28 @@
+.image-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.foto-de-perfil {
+    width: 120px;
+    border-radius: 50%;
+    max-width: 100%;
+}
+
+.certificado {
+    max-width: 100%;
+    margin-bottom: 20px;
+}
+
+@media (min-width: $tablet) {
+    .certificado {
+        height: 70vh;
+    }
+}
+
+@media (min-width: $desktop) {
+    .certificado {
+        height: 80vh;
+    }
+}
